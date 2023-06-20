@@ -1,19 +1,9 @@
-<style>
-mark { 
-  background: rgba(184, 223, 150, 0.3);
-  color: white;
-}
-code {
-  color: white;
-}
-</style>
-
 ## Fișierul `main.c`
 ---
 
 Fișierul <mark>`main.c`</mark> este structurat pe două ramuri, conform celor trei cerințe ale temei (o ramură pentru cerințele -c1 și -c2, respectiv o altă ramură pentru cerința -c3).
 
-## Cerințele 1 și 2:
+## Compresie + Informații arbore:
 ---
 Funcția <mark>`citirePPM()`</mark> (implementată în fișierul `citirePPM.c`) inițializează variabilele ce rețin dimensiunile matricei de pixeli și alocă memorie pentru aceasta din urmă. Pentru construcția matricei se definește tipul de date <mark>`Pixel`</mark>; astfel, unui element `grid[i][j]` îi vor fi asociate cele trei culori aferente codului său RGB.
 
@@ -49,7 +39,7 @@ Funcția primește ca parametri arborele cuaternar creat, alături de un pointer
 
 La finalul prelucrărilor, sunt realizate dezalocările necesare (funcții implementate în fișierul `dezalocari.c`).
 
-## Cerința 3:
+## Decompresie:
 ---
 
 ### <mark style = 'background: rgba(247, 156, 118, 0.3)'>*1. Reconstrucția arborelui cuaternar:*</mark>
